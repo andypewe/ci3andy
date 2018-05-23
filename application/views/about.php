@@ -1,10 +1,13 @@
 <!DOCTYPE html>
+
 <html lang="">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Tugas Awal</title>
+		<title>
+		Tugas Awal
+		</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -46,87 +49,61 @@
 				</div><!-- /.navbar-collapse -->
 			</div>
 		</nav>	
-		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-		<div class="table-responsive">
-			<h1>Biodata Query Biasa Array</h1>
-			<table class="table table-hover">
-				<tbody>
-					<?php foreach ($biodata_array as $key) { ?>
-					<tr>
-						<td><?php echo $key['nama'] ?></td>
-					</tr>
-					<tr>
-						<td><?php echo $key['nim'] ?></td>
-					</tr>
-					<tr>
-						<td><?php echo $key['alamat'] ?></td>
-					</tr>
-					<?php } ?>
-				</tbody>
-			</table>
-		</div>	
-		</div>
-		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-		<div class="table-responsive">
-			<h1>Biodata Query Biasa Object</h1>
-			<table class="table table-hover">
-				<tbody>
-					<?php foreach ($biodata_object as $key) { ?>
-					<tr>
-						<td><?php echo $key->nama ?></td>
-					</tr>
-					<tr>
-						<td><?php echo $key->nim ?></td>
-					</tr>
-					<tr>
-						<td><?php echo $key->alamat ?></td>
-					</tr>
-					<?php } ?>
-				</tbody>
-			</table>
-		</div>	
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-		<div class="table-responsive">
-			<h1>Biodata Query Builder Array</h1>
-			<table class="table table-hover">
-				<tbody>
-					<?php foreach ($biodata_builder_array as $key) { ?>
-					<tr>
-						<td><?php echo $key['nama'] ?></td>
-					</tr>
-					<tr>
-						<td><?php echo $key['nim'] ?></td>
-					</tr>
-					<tr>
-						<td><?php echo $key['alamat'] ?></td>
-					</tr>
-					<?php } ?>
-				</tbody>
-			</table>
-		</div>
-		</div>	
-		
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-		<div class="table-responsive">
-			<h1>Biodata Query Builder Object</h1>
-			<table class="table table-hover">
-				<tbody>
-					<?php foreach ($biodata_builder_object as $key) { ?>
-					<tr>
-						<td><?php echo $key->nama ?></td>
-					</tr>
-					<tr>
-						<td><?php echo $key->nim ?></td>
-					</tr>
-					<tr>
-						<td><?php echo $key->alamat ?></td>
-					</tr>
-					<?php } ?>
-				</tbody>
-			</table>	
-		</div>
+		<style type="text/css">blockquote{
+    border-left:none
+}
+
+.quote-badge{
+    background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box{
+    
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 17px;
+    background-color: #4ADFCC;
+    margin-top: 25px;
+    color:white;
+    width: 325px;
+    box-shadow: 2px 2px 2px 2px #E0E0E0;
+    
+}
+
+.quotation-mark{
+    
+    margin-top: -10px;
+    font-weight: bold;
+    font-size:100px;
+    color:white;
+    font-family: "Times New Roman", Georgia, Serif;
+    
+}
+
+.quote-text{
+    
+    font-size: 19px;
+    margin-top: -65px;
+}</style>
+<div class="container">
+    <blockquote class="quote-box">
+      <p class="quotation-mark">
+        “
+      </p>
+      <p class="quote-text">
+        Don't believe anything that you read on the internet, it may be fake. 
+      </p>
+      <hr>
+      <div class="blog-post-actions">
+        <p class="blog-post-bottom pull-left">
+        </p>
+        <p class="blog-post-bottom pull-right">
+          <span class="badge quote-badge">22</span>  ❤
+        </p>
+      </div>
+    </blockquote>
+</div>
 		</div>
 		</div>
 	</div>

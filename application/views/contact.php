@@ -125,10 +125,6 @@ font-size: 24px;
                     P:</abbr>
                 (123) 456-7890
             </address>
-            <address>
-                <strong>Full Name</strong><br>
-                <a href="mailto:#">Muhamad Alif Fudianto</a>
-            </address>
             </form>
         </div>
 		</div>
